@@ -26,7 +26,9 @@ const ThoughtList = ({ thoughts, title, usersname }) => {
                 {thought.thought}
               </p>
             }
-            
+            {thought.image && 
+              <img src={thought.image} alt='deep-thoughts' /> 
+            }
           </div>
         ))}
     </div>
