@@ -5,7 +5,7 @@ const params = fileName => {
     const fileType = myFile[myFile.length - 1];
   
     const imageParams = {
-      Bucket: '<My_Bucket_Name>',
+      Bucket: 'aws-thoughts-bucket',
       Key: `${uuidv4()}.${fileType}`,
       Body: fileName.buffer
     };
