@@ -3,8 +3,7 @@ const AWS = require('aws-sdk');
 
 // Setting the region and endpoint
 AWS.config.update({
-    region: "us-east-2",
-    endpoint: "http://localhost:8000"
+    region: "us-east-2"
 });
 
 // Creating DynamoDB service object w/ latest LTS
